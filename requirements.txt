@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+streamlit
+beautifulsoup4
+requests
+joblib
+jupyter
+black
+flake8
+isort
