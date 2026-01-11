@@ -64,12 +64,6 @@ A small, end-to-end project that scrapes laptop listings from Flipkart, performs
 ## 🔬 Notebooks & EDA
 Open `notebooks/eda.ipynb` to explore data diagnostics, distributions, and feature correlations. The notebook includes generated plot images and a short insights summary saved to `reports/eda_outputs/` when exporting.
 
-## ✅ Tests
-Run unit tests with pytest:
-
-```bash
-pytest -q
-```
 
 ## 📁 Artifacts & Outputs
 - Raw data: `data/raw/flipkart_laptops.csv`
@@ -77,13 +71,6 @@ pytest -q
 - Model: `models/artifacts/best_price_model.joblib`
 - Notebook exports: `reports/eda_outputs/` (PNG, CSV, HTML snippets)
 
-## ⚠️ Troubleshooting tips
-- Scraper: requires internet access and a compatible browser driver. If Selenium fails, ensure `webdriver-manager` is installed and not blocked by a firewall.
-- Streamlit: if the port is in use, change `--server.port` or stop other servers.
-- Plotly / SHAP: optional packages (plotly, shap) may be required for interactive plots or explainability; the notebook has fallbacks if they are not installed.
-
-## Contributing
-Contributions welcome — open an issue or a PR. Please add tests for new features and document any data/schema changes.
 
 ## License
 This repository is available under the MIT License. See `LICENSE` for details.
