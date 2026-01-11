@@ -72,9 +72,4 @@ Open `notebooks/eda.ipynb` to explore data diagnostics, distributions, and featu
 - Notebook exports: `reports/eda_outputs/` (PNG, CSV, HTML snippets)
 
 
-## License
-This repository is available under the MIT License. See `LICENSE` for details.
 
----
-
-If you'd like, I can also: add badges, generate a one-page project summary, or create a CONTRIBUTING.md. Let me know which you'd prefer.
